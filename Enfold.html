@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    
+
+<head>
+ <link href='Enfold.css' rel='stylesheet' type='text/css'>   
+</head>
+    
+    
+<body>
+ 
+ <ul>
+  <img id="enfoldpng" src="enfold.png"/>     
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">Products</a></li>
+  <li><a href="#contact">Pricing</a></li>
+  <li><a href="#about">Our Story</a></li>
+  <li><a href="#contact">News</a></li>
+  <li><a href="#contact">Contact</a></li>     
+    <li><a href="#about"><img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-128.png" width="25px" height="25px"></a></li>
+
+</ul>
+     
+ <div id="section1">
+ <div id="section11">
+     <div id="section111">
+        <div id="text1">EVERYTHING UNDER ONE ROOF! WE OFFER GREAT<br>
+        </div>
+        <div id="text2">MARKETING<br></div> 
+        <div id="text3">__</div> 
+     </div>
+     <div id="section112">
+        <div id="play1"> 
+           <div id="play"><image src="play.png"/ width="50px" height="50px"></div>
+           <div id="play2"></div>    
+        </div>    
+     </div>
+ </div>
+ </div>
+ <div id="section2"></div>
+ <div id="section3"></div>
+ <div id="section4"></div>
+ <div id="section5"></div>
+ <div id="section6"></div>
+ <div id="section7"></div>
+ <div id="section8"></div>
+ <div id="section9"></div>
+ <div id="section10"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>    
+<script>
+//for resizing nav bar
+$(document).ready(function(){   
+$(window).scroll(function(){
+    var distanceFromTop = $(document).scrollTop();    
+    if(distanceFromTop < 20 )
+    {
+        // reduce div height to 250px
+        $('ul').css({'height' : '20' - $(document).scrollTop()*0.5 + '%','background-color':'rgba(0, 0, 0, 0)'});
+    }
+    else
+    {
+        // set minimum div height to 100px
+        $('ul').css({'height': '10%','background-color':'#38b5ab'});
+    }   
+});
+});    
+    
+</script>
+     
+
+<script type="text/javascript">     
+$(function () {
+  count = 0;
+  wordsArray = ["MARKETING", "USER EXPERIENCE", "CUSTOMER SUPPORT","DESIGN SKILLS"];
+  setInterval(function () {
+    count++;
+    $("#text2").fadeOut(400, function () {
+      $(this).text(wordsArray[count % wordsArray.length]).fadeIn(400);
+    });
+  }, 3000);
+});
+</script>
+   
+</body>
+    
+    
+</html>    
