@@ -177,8 +177,29 @@ background-color: aqua;
 }
 #section4{
 width:100%;
-height:100%;
-background-color: lightsteelblue;    
+height:20%;
+background-color: lightsteelblue;   
+text-align: center; 
+}
+.button_link_learnmore{
+  width: cover;
+  height: 100%;
+  display: block;
+  color: white;
+  background: #4ecac2;
+  text-align: center;
+  
+}
+.button_link_learnmore:hover{
+  background: #404040;
+  color: white;
+  text-decoration: none;
+   transition-duration: 1s;
+;
+}
+.vertical_center_text{
+  font-size: 3vh;
+
 }
 #section5{
 width:100%;
