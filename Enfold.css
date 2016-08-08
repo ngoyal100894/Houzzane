@@ -2,7 +2,7 @@
  box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
+  }
  html,body{
 width:100%;
 height:100%;
@@ -142,7 +142,33 @@ color:#38b5ab;
 #section2{
 width:100%;
 height:100%;
-background-color:lightsteelblue;    
+background-color:white; 
+padding: 6% 0 6% 0;
+}
+.what_we_do_section{
+  font-family: Lato;
+  margin: auto;
+  text-align: center;
+  color: #222222; 
+}
+.what_we_do_explain{
+
+}
+.what_we_do_heading{
+  
+}
+.what_we_do_para{
+  color: #9d9d9d;
+  
+}
+.what_we_do_links{
+  color: #38b5ad;
+  
+}
+.dash_section{
+  font-size: 7vh;
+  text-align: center;
+  margin-bottom: 7%;
 }
 #section3{
 width:100%;
